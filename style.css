@@ -106,8 +106,8 @@ body {
     height: 90px;
     background-color: #FF6347; /* Red */
     position: absolute;
-    top: calc(40% + 117px); 
-    left: 50.1%;
+    top: calc(40% + 118px); 
+    left: 50%;
     transform: translateX(-45%) rotate(45deg);
   }
   
