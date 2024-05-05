@@ -102,12 +102,12 @@ body {
   }
   
   .diamond {
-    width: 100px;
-    height: 100px;
-    background-color: #FF6347; 
+    width: 90px;
+    height: 90px;
+    background-color: #FF6347; /* Red */
     position: absolute;
-    top: calc(40% + 142px); 
-    left: 50.4%; 
-    transform: translateX(-50%) rotate(45deg);
+    top: calc(40% + 157px); 
+    left: 50%;
+    transform: translateX(-45%) rotate(45deg);
   }
   
