@@ -8,12 +8,6 @@ body {
     height: 100vh; 
   }
   
-  .heart {
-    position: relative;
-    width: 500px; 
-    height: 400px; 
-  }
-  
   .heart:before,
   .heart:after {
     position: absolute;
@@ -101,13 +95,22 @@ body {
     color: #000; 
   }
   
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 400px;
+  }
+  
   .diamond {
     width: 90px;
     height: 90px;
     background-color: #FF6347; /* Red */
     position: absolute;
-    top: calc(40% + 118px); 
+    top: calc(50% + 22px); /* Adjusted position */
     left: 50%;
-    transform: translateX(-45%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
   }
   
