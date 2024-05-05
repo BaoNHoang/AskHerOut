@@ -112,5 +112,6 @@ body {
     top: calc(50% + 22px); /* Adjusted position */
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
+    z-index: -1;
   }
   
